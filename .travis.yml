@@ -2,7 +2,7 @@ language: c
 
 install:
   - sudo apt-get -qq update
-  - sudo apt-get -qq install xfce4-dev-tools gtk-doc
+  - sudo apt-get -qq install xfce4-dev-tools gtk-doc-tools
   - sudo apt-get build-dep -y -qq xfce4-panel 
 
 script: ./autogen.sh && make
